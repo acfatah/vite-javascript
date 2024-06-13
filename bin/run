@@ -1,0 +1,4 @@
+#!/usr/bin/env vite-node
+'use strict'
+
+import '../src/main.js'
