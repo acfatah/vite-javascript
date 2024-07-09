@@ -10,6 +10,8 @@
 
 Use `vite-node` as the Javascript runtime. Read [more](https://github.com/vitest-dev/vitest/tree/main/packages/vite-node#readme).
 
+> This repository serves as a template, and I will rebase it over time to make updates as needed.
+
 ## Features
 
 - Uses Vitest for testing

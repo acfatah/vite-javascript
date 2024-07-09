@@ -1,12 +1,12 @@
 # Logs
-logs
 *.log
+logs
 npm-debug.log*
 
 .nyc_output
-node_modules
-dist
 coverage
+dist
+node_modules
 tmp
 
 # Editor directories and files
