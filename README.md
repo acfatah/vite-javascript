@@ -23,10 +23,10 @@ Use `vite-node` as the Javascript runtime. Read [more](https://github.com/vitest
 To start a new project, run
 
 ```bash
-degit acfatah/vite-javascript your_script
+degit acfatah/vite-javascript your_project
 ```
 
-After that, install the dependencies and initialize a new git repository.
+After that, install the dependencies and initialize a new git repository by running the following command.
 
 ```bash
 npm install && git init
@@ -34,7 +34,7 @@ npm install && git init
 
 ### Development
 
-To start development mode, run
+To start development mode using `vitest`, run
 
 ```bash
 npm run dev
@@ -42,9 +42,9 @@ npm run dev
 
 ### Execution
 
-To run the program, use the `npm run start` command.
+To run the program, use the `npm run start` command or simple press <kbd>F5</kbd> in vscode.
 
-Before running the `bin/run` command, you may need to install `vite-node` globally.
+To run `vite-node` directly using bash, run the command `bin/run`. You may need to install `vite-node` globally.
 
 ### Build
 
