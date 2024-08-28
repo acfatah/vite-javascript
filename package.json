@@ -33,18 +33,18 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.24.1",
+    "@antfu/eslint-config": "^2.27.3",
     "@rollup/plugin-json": "^6.1.0",
     "@rushstack/eslint-patch": "^1.10.4",
     "@vitest/coverage-istanbul": "^2.0.5",
-    "eslint": "^9.8.0",
+    "eslint": "^9.9.1",
     "eslint-plugin-format": "^0.1.2",
-    "npm-check-updates": "^17.0.1",
+    "npm-check-updates": "^17.1.0",
     "nyc": "^17.0.0",
     "prettier": "^3.3.3",
     "release-it": "^17.6.0",
     "rimraf": "^6.0.1",
-    "rollup": "^4.19.2",
+    "rollup": "^4.21.1",
     "simple-git-hooks": "^2.11.1",
     "vite-node": "^2.0.5",
     "vitest": "^2.0.5"
