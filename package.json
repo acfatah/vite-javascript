@@ -33,7 +33,7 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.1",
+    "@antfu/eslint-config": "^3.7.3",
     "@rollup/plugin-json": "^6.1.0",
     "@rushstack/eslint-patch": "^1.10.4",
     "@vitest/coverage-istanbul": "^2.1.1",
