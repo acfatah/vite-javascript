@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": false,
-  "description": "Yet another example of nodejs application that uses Vite and Vitest for development.",
+  "description": "Yet another example of nodejs application that uses Vite and Vitest.",
   "author": "Achmad F. Ibrahim <acfatah@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/acfatah/vite-javascript#readme",
@@ -14,12 +14,20 @@
   "bugs": {
     "url": "https://github.com/acfatah/vite-javascript/issues"
   },
-  "main": "main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "require": "./dist/main.umd.cjs"
+    }
+  },
+  "main": "dist/main.umd.js",
+  "module": "dist/main.js",
   "bin": "bin/main.mjs",
+  "files": ["dist"],
   "scripts": {
-    "start": "vite-node src/main.js",
+    "start": "node dist/main.js",
     "dev": "vitest",
-    "build": "rollup -c",
+    "build": "vite build",
     "lint": "eslint .",
     "lint:file": "eslint --fix",
     "lint:fix": "eslint --fix .",
@@ -34,7 +42,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
-    "@rollup/plugin-json": "^6.1.0",
     "@rushstack/eslint-patch": "^1.10.4",
     "@vitest/coverage-istanbul": "^2.1.2",
     "eslint": "^9.12.0",
@@ -44,7 +51,6 @@
     "prettier": "^3.3.3",
     "release-it": "^17.8.2",
     "rimraf": "^6.0.1",
-    "rollup": "^4.24.0",
     "simple-git-hooks": "^2.11.1",
     "vite-node": "^2.1.2",
     "vitest": "^2.1.2"
